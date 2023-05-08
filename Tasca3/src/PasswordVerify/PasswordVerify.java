@@ -36,8 +36,6 @@ public class PasswordVerify {
             msjError += "La contrasenya ha de contenir almenys un caràcter especial\n";
             isValid = false;
         }
-
         return new PasswordResult(isValid, msjError);
     }
-
 }
